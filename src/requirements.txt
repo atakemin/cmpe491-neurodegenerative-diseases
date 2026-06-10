@@ -1,0 +1,46 @@
+torch>=2.0.0
+torchvision
+
+# MONAI
+monai>=1.3.2
+monai-generative
+monai[itk]
+
+# Diffusion / Transformers
+diffusers
+transformers
+lpips
+
+# Medical imaging
+nibabel>=5.3.1
+antspyx>=0.5.3
+antspynet
+
+# Deep learning utilities
+lightning>=2.4.0
+pytorch-lightning>=2.4.0
+torchmetrics>=1.4.3
+bitsandbytes>=0.44.1
+
+# Config
+hydra-core>=1.3.2
+omegaconf>=2.3.0
+jsonargparse>=4.33.2
+
+# Logging
+wandb
+tensorboardX
+
+# Scientific Python
+numpy>=1.26.4
+pandas>=2.2.3
+scikit-learn>=1.5.2
+scikit-image
+scipy>=1.14.1
+matplotlib>=3.9.2
+tqdm
+
+# TensorFlow (required by antspynet)
+tensorflow>=2.16.1
+tensorflow-probability[tf]>=0.24.0
+protobuf>=3.20.3,<5.0.0
